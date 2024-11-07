@@ -1,7 +1,7 @@
 # SCREENSHOT KODE PROGRAM IONIC 
 
 ## Tampilan Awal<br>
-<img src="https://github.com/user-attachments/assets/255df3f3-b69c-4774-b4be-a97415bdb582" width="170" height="352"/><br>
+<img src="https://github.com/user-attachments/assets/255df3f3-b69c-4774-b4be-a97415bdb582" width="180" height="370"/><br>
 
 ## Menambah (Create) Data Mahasiswa<br>
 <img src="https://github.com/user-attachments/assets/4df5935b-fd53-4cef-a111-178da6f8a8f7" width="180" height="320"/>
