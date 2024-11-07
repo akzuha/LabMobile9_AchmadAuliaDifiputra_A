@@ -19,5 +19,6 @@
 
 ## Menghapus (Delete) Data Mahasiswa
 <img src="https://github.com/user-attachments/assets/4de4cb25-647d-4286-8ed1-8cedb331edf3" width="180" height="360"/>
+
 https://github.com/user-attachments/assets/03c7f4be-70e2-4cc2-a70a-5acdb6bc5e1b
 
