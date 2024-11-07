@@ -11,7 +11,7 @@
     </ion-toolbar>
   </ion-header>
 <!-- button tambah -->
-<ion-card>
+<ion-card style="position: floating;">
   <ion-button (click)="openModalTambah(true)" expand="block">Tambah Mahasiswa</ion-button>
 </ion-card>
 <!-- modal tambah -->
@@ -87,8 +87,13 @@
         <p>{{ item.jurusan }}</p>
       </ion-label>
       <ion-button expand="block" (click)="openModalEdit(true,item.id)">Edit</ion-button>
-      <ion-button color="danger" slot="end" (click)="hapusMahasiswa(item.id)">Hapus</ion-button>
+      <ion-button id="present-alert" color="danger" slot="end" (click)="confirmHapus(item.id)">Hapus</ion-button>
+      <ion-alert
+        [isOpen]="selectedId === item.id"
+        header="Yakin ingin menghapus data {{ item.nama }}?"
+        [buttons]="alertButtons"
+        (didDismiss)="setResult($event)"
+      ></ion-alert>
     </ion-item>
   </ion-card>
-
 </ion-content>

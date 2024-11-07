@@ -9,6 +9,7 @@ import { ModalController } from '@ionic/angular';
 })
 export class MahasiswaPage implements OnInit {
   dataMahasiswa: any;
+  public selectedId: any;
 
   constructor(private api:ApiService, private modal:ModalController) { }
 
@@ -133,5 +134,30 @@ export class MahasiswaPage implements OnInit {
           console.log('gagal edit Mahasiswa');
         }
       })
+  }
+  public alertButtons = [
+    {
+      text: 'Tidak',
+      role: 'cancel',
+      handler: () => {
+        console.log('Tidak jadi hapus data');
+      },
+    },
+    {
+      text: 'Ya',
+      role: 'confirm',
+      handler: () => {
+        this.hapusMahasiswa(this.selectedId);
+      },
+    },
+  ];
+
+  setResult(ev: any) {
+    console.log(`Dismissed with role: ${ev.detail.role}`);
+    this.selectedId = null;
+  }
+
+  confirmHapus(id: any) {
+    this.selectedId = id;
   }
 }
