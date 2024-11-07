@@ -6,13 +6,13 @@
 ## Menambah (Create) Data Mahasiswa
 <img src="https://github.com/user-attachments/assets/4df5935b-fd53-4cef-a111-178da6f8a8f7" width="180" height="360"/>
 <img src="https://github.com/user-attachments/assets/88413136-802c-4ad4-8fa6-8d8ff6eae367" width="180" height="360"/>
-<p>Gambar sebelah kiri menunjukkan tampilan awal ketika Memencet tombol tambah Mahasiswa. Disitu akan menampilkan form input yang menyuruh pengguna memasukkan Nama dari mahasiswa dan jurusannya. Setelah diisi data maka pencet tombol Tambah Mahasiswa untuk menambah ke database.</p>
-<p>Button tambah mahasiswa akan memanggil fungsi tambahMahasiswa() ketika di pencet.</p>
+Gambar sebelah kiri menunjukkan tampilan awal ketika Memencet tombol tambah Mahasiswa. Disitu akan menampilkan form input yang menyuruh pengguna memasukkan Nama dari mahasiswa dan jurusannya. Setelah diisi data maka pencet tombol Tambah Mahasiswa untuk menambah ke database.
+Button tambah mahasiswa akan memanggil fungsi tambahMahasiswa() ketika di pencet.
 
 
 ## Melihat (Read) Data Mahasiswa
-<img src="https://github.com/user-attachments/assets/601c3e60-0e4e-4bf5-87c9-c5e7ace5a407" width="180" height="360"/><br>
-<p>Gambar diatas menunjukkan tampilan seluruh data yang diambil dari database dengan fungsi getMahasiswa()</p>
+<img src="https://github.com/user-attachments/assets/601c3e60-0e4e-4bf5-87c9-c5e7ace5a407" width="180" height="360"/>
+Gambar diatas menunjukkan tampilan seluruh data yang diambil dari database dengan fungsi getMahasiswa()
 
 ## Mengubah (Update) Data Mahasiswa
 <img src="https://github.com/user-attachments/assets/d8b94886-c740-419b-a292-31fb29fb2d2e" width="180" height="360"/>
