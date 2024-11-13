@@ -10,7 +10,7 @@
 <p>Button tambah mahasiswa akan memanggil fungsi tambahMahasiswa() ketika di pencet.</p>
 
 
-## Melihat (Read) Data Mahasiswa
+## Melihat (Read) Data Mahasiswa 
 <img src="https://github.com/user-attachments/assets/601c3e60-0e4e-4bf5-87c9-c5e7ace5a407" width="180" height="360"/><br>
 <p>Gambar diatas menunjukkan tampilan seluruh data yang diambil dari database dengan fungsi getMahasiswa()</p>
 
